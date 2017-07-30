@@ -1,0 +1,10 @@
+.page {
+    height: 100vh;
+    background-color: #202A3C;
+    overflow: hidden;
+    @include media(567px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
